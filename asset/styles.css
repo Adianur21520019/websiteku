@@ -1,20 +1,26 @@
+body {
+    background-color: #ecf0f1;
+}
 .wrapper {
-    background: grey;
 }
 .container {
     width: 1200px;
     margin: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: #bdc3c7;
 }
 .sidebar {
     width: 400px;
     height: 600px;
-    background: red;
     float: left;
 }
 .content {
     width: 800px;
     height: 600;
-    background: blue;
     float: right;
     position: relative;
+}
+.clear {
+    clear: both;
 }
